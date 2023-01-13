@@ -10,7 +10,7 @@ app.use(router);
 import installStore from "@/stores";
 installStore(app)
 // @ts-ignore
-import installElement from './plugins/element-plus';
-installElement(app);
+// import installElement from './plugins/element-plus';
+// installElement(app);
 
 app.mount('#app');
